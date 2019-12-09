@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
 import java.util.Map;
+//https://github.com/maqingxu/firstspringboot.git
+//git@github.com:maqingxu/firstspringboot.git
 
 @RestController
 public class FirstSpringBoot {

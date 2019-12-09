@@ -2,23 +2,20 @@ package com.example.demo.domain;
 
 
 import com.example.demo.util.IdService;
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import java.io.Serializable;
 
-@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class,property ="id")
+//@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class,property ="id")
 public final class Degree implements
 		Comparable<Degree>,Serializable{
 
-	@JsonProperty(value = "id")
+	//@JsonProperty(value = "id")
 	private Integer id;
-	@JsonProperty(value = "description")
+	//@JsonProperty(value = "description")
 	private String description;
-	@JsonProperty(value = "no")
+	//@JsonProperty(value = "no")
 	private String no;
-	@JsonProperty(value = "remarks")
+	//@JsonProperty(value = "remarks")
 	private String remarks;
 	{
 		this.id = IdService.getId();
